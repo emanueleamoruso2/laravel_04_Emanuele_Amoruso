@@ -1,0 +1,23 @@
+body{
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+
+.nav-link{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: red !important;
+    text-shadow: 2px 2px 5px white, -2px -2px 5px white !important;
+    transform: scale(1.1);
+}
+
+.card-custom{
+    height: 600px !important;
+}
+
+.card-custom2{
+    margin-top: 0px !important;
+}
