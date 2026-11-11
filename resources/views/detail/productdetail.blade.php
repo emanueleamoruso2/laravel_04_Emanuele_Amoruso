@@ -2,17 +2,17 @@
     <div class="container-fluid mt-3">
         <div class="row justify-content-center align-items-center">
             <div class="col-12 text-center text-danger">
-                <h1>Dettaglio del prodotto : {{$prodotto['nomeprodotto']}}</h1>
+                <h1>Dettaglio del prodotto : {{$product['name']}}</h1>
             </div>
         </div>
         <div class="row justify-content-center align-items-center mt-3">
     <div class="col-12 col-md-6 d-flex justify-content-center align-items-start">
-        <img src="{{$prodotto['Img']}}" alt="{{$prodotto['nomeprodotto']}}" class="img-fluid">
+        <img src="{{$product['Img']}}" alt="{{$product['name']}}" class="img-fluid">
     </div>
     <div class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column">
-        <h1>Prodotto : {{$prodotto['nomeprodotto']}}</h1>
-        <h3>Categoria: {{$prodotto['Categoria']}}</h3>
-        <p>Prezzo: {{$prodotto['Prezzo']}}</p>
+        <h1>Prodotto : {{$product['name']}}</h1>
+        <h3>Categoria: {{$product['category']}}</h3>
+        <p>Prezzo: {{$product['price']}}</p>
     </div>
         </div>
     </div>

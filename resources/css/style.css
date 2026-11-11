@@ -21,3 +21,17 @@ body{
 .card-custom2{
     margin-top: 0px !important;
 }
+
+.background{
+    background: linear-gradient(to bottom, rgba(200,230,220,0.7),rgba(250,240,230,0.8)),url('https://picsum.photos/3000')
+    ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 92vh;
+}
+
+.navbar{
+    height: 8vh;
+}
